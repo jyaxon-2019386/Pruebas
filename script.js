@@ -1,5 +1,6 @@
 
 iniciar(); // Llama a la función iniciar() para comenzar el juego
+const letras = ['A','B','C','D','F','G','H', 'I', 'J', 'K'];
 
 // Función para iniciar el juego
 function iniciar() {
@@ -16,6 +17,7 @@ function iniciar() {
 function elegirPalabraAleatoria() {
     return palabras[Math.floor(Math.random() * palabras.length)]; 
 }
+
 
 
 function comprobar(letra) {

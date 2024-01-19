@@ -3,15 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ahorado en JavaScript</title>
-    <link rel="stylesheet" href="style.css">    
+    <title>Ahorcado en Javascript</title>
+    <script src="script.js"> </script>
+    <script src="words.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
-    <h1>Ahorcado en JavaScript</h1>
-    <input type="text" class="input">
-    
-    <div>
+    <section>
+        <div>
+            <h1>Ahorcado en Javascript</h1>
+        </div>
+        <div id="palabra"></div>
+        <div id="intentos">El número de intentos es de: 7</div>
+        <div id="letrasIngresadas">Letras ingresadas: </div>
+        <br>
+        </section>
+    <section>
+        <canvas id="lienzo">
+        </canvas>
+    </section>
+    <div id="teclado">
+        <button type="submit" value="A" >A</button>
         <button>B</button>
         <button>C</button>
         <button>E</button>
@@ -39,10 +51,4 @@
         <button>Z</button>
     </div>
     
-    </div>
     
-    
-    <script src="script.js"> </script>
-    <script src="words.js"></script>
-</body>
-</html>
